@@ -2,6 +2,7 @@
 const path = require('path');
 
 module.exports = {
+mode: 'production',
   entry: './src/Headernav.js', // Path to your component entry file
   output: {
     path: path.resolve(__dirname, 'dist'), // Output directory
