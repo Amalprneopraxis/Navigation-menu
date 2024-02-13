@@ -10,7 +10,7 @@ module.exports = {
     library: 'Headernav', // Name of the library
     libraryTarget: 'umd', // Output module format
     umdNamedDefine: true, // Define the module's name for AMD
-    globalObject: 'this', // Define the global object used,
+    globalObject: 'this' // Define the global object used,
   },
   module: {
     rules: [
