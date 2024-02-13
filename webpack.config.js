@@ -2,13 +2,15 @@
 const path = require('path');
 
 module.exports = {
-mode: 'production',
+  mode: 'production',
   entry: './src/Headernav.js', // Path to your component entry file
   output: {
     path: path.resolve(__dirname, 'dist'), // Output directory
     filename: 'Headernav.bundle.js', // Output filename
     library: 'Headernav', // Name of the library
-    libraryTarget: 'umd', // Universal Module Definition
+    libraryTarget: 'umd', // Output module format
+    umdNamedDefine: true, // Define the module's name for AMD
+    globalObject: 'this', // Define the global object used,
   },
   module: {
     rules: [
