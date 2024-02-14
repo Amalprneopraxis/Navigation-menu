@@ -4,8 +4,9 @@ const Headernav = () => {
     return (
         <>
             <div>
-                <div>@@@@Exported component for other project</div>
-                <div>@@@@Exported component for other project 2 is here</div>
+                <div>Add versioning</div>
+                <div>Exported component for other project</div>
+                <div>Exported component for other project 2 is here</div>
                 <h1>Name: John Doe</h1>
                 <p>Age: 40</p>
                 <p>City: New York</p>

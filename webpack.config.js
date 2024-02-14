@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/Headernav.js', // Path to your component entry file
   output: {
     path: path.resolve(__dirname, 'dist'), // Output directory
-    filename: 'Headernav.bundle.js', // Output filename
+    filename: 'Headernav.bundle.js?v=1.0', // Output filename
     library: 'Headernav', // Name of the library
     libraryTarget: 'umd', // Output module format
     umdNamedDefine: true, // Define the module's name for AMD
