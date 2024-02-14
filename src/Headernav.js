@@ -2,11 +2,14 @@ import React from 'react';
 
 const Headernav = () => {
     return (
-        <div>
-            <h1>Name: John Doe</h1>
-            <p>Age: 40</p>
-            <p>City: New York</p>
-        </div>
+        <>
+            <div>
+                <div>Exported component</div>
+                <h1>Name: John Doe</h1>
+                <p>Age: 40</p>
+                <p>City: New York</p>
+            </div>
+        </>
     );
 };
 

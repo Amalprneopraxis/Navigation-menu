@@ -6,6 +6,7 @@ function App() {
   <>
   <div>
     main heading
+    <div>App heading file</div>
     <Headernav/>
   </div>
   </>
