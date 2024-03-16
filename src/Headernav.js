@@ -4,7 +4,7 @@ const Headernav = () => {
     return (
         <>
             <div>
-                <div>Exported component</div>
+                <div>Exported component 1</div>
                 <h1>Name: John Doe</h1>
                 <p>Age: 40</p>
                 <p>City: New York</p>
